@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.container{
+    margin: 0 20px;
+    padding: 0 20px;
+}
+.text{
+    margin: 10px 0px;
+    border: 1px solid none;
+    box-shadow: 5px 5px 10px rgb(210, 209, 206);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+.row .col-30{
+    width: 30%;
+}
+.col-30 h3{
+    text-align: center;
+    color: aliceblue;
+    padding: 50px 50px;
+    background-color: rgb(74, 72, 72);
+}
+.col-30 p{
+    padding: 10px 0;
+}
+.col-30 button{
+    padding: 5px 20px;
+}
